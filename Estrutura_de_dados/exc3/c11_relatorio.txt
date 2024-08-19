@@ -1,0 +1,3 @@
+da forma apresentada o arquivo entra em loop eterno.
+
+Sendo assim é importante parar quando chega no final. Ou seja não pode-se definir nesse caso um "while" eterno

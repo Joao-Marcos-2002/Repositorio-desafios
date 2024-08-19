@@ -1,0 +1,6 @@
+Falha de segmentação (imagem do núcleo gravada)
+
+
+Basicamente, faltou inicializar com a linha abaixo:
+
+rotation3D = (struct Matrix*) malloc(sizeof(struct Matrix)); 

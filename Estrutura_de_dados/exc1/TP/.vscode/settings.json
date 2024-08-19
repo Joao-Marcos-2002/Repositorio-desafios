@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "math.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c",
+        "getopt.h": "c",
+        "mat.h": "c"
+    }
+}

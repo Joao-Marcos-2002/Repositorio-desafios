@@ -1,0 +1,2 @@
+Ocorreu uma exceção.
+Arithmetic exception
