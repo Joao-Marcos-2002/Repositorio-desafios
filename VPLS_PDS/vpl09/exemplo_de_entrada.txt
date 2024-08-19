@@ -1,0 +1,12 @@
+-2 2 
+a -2 thiago
+a -1 maria
+a 0 joao
+a 1 carlos
+a 2 marcos
+v 2
+v 1
+v 0
+v -1
+v -2
+f

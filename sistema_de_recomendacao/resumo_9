@@ -1,0 +1,83 @@
+
+
+
+
+O que é uma Máquina de Boltzmann Restrita (RBM) e qual é a sua estrutura básica?
+
+R: Uma RBM também conhecida como uma rede neural não supervisionada é formada de duas camadas: uma camada visível e uma oculta
+
+
+
+
+
+
+Qual é o objetivo principal do treinamento de uma RBM?
+
+
+R: O objetivo principal do treinamento de um RBM é aprender uma representação dos dados de entrada e reconstruí-los da melhor forma possível.
+
+
+
+
+
+Como é realizado o treinamento de uma RBM, e qual é o algoritmo geralmente usado para esse propósito?
+
+
+R: O treinamento de uma RBM envolve o uso do algoritmo de Divergencia Contrastiva para ajustar os pesos das conexões
+entre as unidades visíveis e ocultas.
+
+
+
+Quais são algumas das aplicações comuns de RBMs em aprendizado de máquina?
+
+R: RBMs são usadas em tarefas de filtragem colaborativa, modelagem de dados, redução de dimensionalidade e outras aplicações.
+
+
+
+
+Qual é o desafio de "Partição Intratável" no treinamento de RBMs e como é abordado?
+
+R: A partição intratável ocorre quando há muitas configurações possíveis de unidade. A solução envolve aproximações para calcular o gradiente.
+
+
+
+Como as RBMs lidam com feedback ausente em tarefas como filtragem colaborativa?
+
+R: RBMs lidam com feedback ausente usando UNIDADES VISIVEIS apenas para feedback conhecido e compartilhando pesos entre RBMs
+
+
+
+Em comparação com a fatoração de matrizes, como RBMs têm se saído em tarefas de filtragem colaborativa?
+
+R: RBMS tem se mostrado eficazes em tarefas de filtragem colaborativa, competindo com métodos de fatoração de matrizes.
+
+
+
+
+Qual é a estrutura da Divergência Contrastiva e como ela é usada no treinamento de RBMs?
+
+
+R: A divergencia é uma métrica que compara a distribuição  de probabilidade real com distribuição aprendida na RBM. Ela é usada para ajustar pesos na etapa de treinamento.
+
+
+
+Em que contexto as RBMs são usadas em redes de crenças profundas?
+
+
+R: RBMs podem ser empilhadas em redes de crenças profundas para construir modelos mais complexos e representar dados de maneira mais abstrata.
+
+
+
+
+
+Como a paralelização e os atalhos podem acelerar o treinamento de RBMs?
+
+
+R: A paralelização  e atalhos aceleram o treinamento de RBMs, tornando o processo mais eficiente e permitindo que as RBMs aprendam representações mais profundas de dados.
+
+
+
+
+
+
+

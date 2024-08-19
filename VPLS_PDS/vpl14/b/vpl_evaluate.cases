@@ -1,0 +1,144 @@
+case = t01
+input = 
+m
+i thiago 1
+i maria 2
+i jose 3
+i carlos 4
+v inexistente
+r inexistente
+a inexistente valor
+i repetida valor
+i repetida valor
+r repetida
+r repetida
+t
+p thiago
+p Thiago
+p Maria
+p maria
+r thiago
+r carlos
+t
+v maria
+v jose
+a maria 5
+a jose 6
+v maria
+v jose
+m
+r maria
+t
+m
+r jose
+t
+m
+v inexistente
+r inexistente
+a inexistente valor
+i repetida valor
+i repetida valor
+r repetida
+r repetida
+f
+output =
+Não foi possível realizar a operação: Dicionário vazio
+Não foi possível realizar a operação: A chave inexistente não está no dicionário
+Não foi possível realizar a operação: A chave inexistente não está no dicionário
+Não foi possível realizar a operação: A chave inexistente não está no dicionário
+Não foi possível realizar a operação: A chave repetida já está no dicionário
+Não foi possível realizar a operação: A chave repetida não está no dicionário
+4
+sim
+não
+não
+sim
+2
+2
+3
+5
+6
+jose
+1
+jose
+0
+Não foi possível realizar a operação: Dicionário vazio
+Não foi possível realizar a operação: A chave inexistente não está no dicionário
+Não foi possível realizar a operação: A chave inexistente não está no dicionário
+Não foi possível realizar a operação: A chave inexistente não está no dicionário
+Não foi possível realizar a operação: A chave repetida já está no dicionário
+Não foi possível realizar a operação: A chave repetida não está no dicionário
+case = t02
+input =
+m
+v inexistente
+r inexistente
+a inexistente valor
+i repetida valor
+i repetida valor
+r repetida
+r repetida
+t
+i thiago 1
+t
+a thiago noronha
+t 
+m
+v thiago
+i maria 2
+t
+a maria clara
+t 
+m
+v maria
+i carlos 4
+t
+a carlos magno
+t 
+m
+v carlos 
+i jose 3
+t
+a jose marcos
+t 
+m
+v jose
+m
+v inexistente
+r inexistente
+a inexistente valor
+i repetida valor
+i repetida valor
+r repetida
+r repetida
+f
+output=
+Não foi possível realizar a operação: Dicionário vazio
+Não foi possível realizar a operação: A chave inexistente não está no dicionário
+Não foi possível realizar a operação: A chave inexistente não está no dicionário
+Não foi possível realizar a operação: A chave inexistente não está no dicionário
+Não foi possível realizar a operação: A chave repetida já está no dicionário
+Não foi possível realizar a operação: A chave repetida não está no dicionário
+0
+1
+1
+thiago
+noronha
+2
+2
+maria
+clara
+3
+3
+carlos
+magno
+4
+4
+carlos
+marcos
+carlos
+Não foi possível realizar a operação: A chave inexistente não está no dicionário
+Não foi possível realizar a operação: A chave inexistente não está no dicionário
+Não foi possível realizar a operação: A chave inexistente não está no dicionário
+Não foi possível realizar a operação: A chave repetida já está no dicionário
+Não foi possível realizar a operação: A chave repetida não está no dicionário

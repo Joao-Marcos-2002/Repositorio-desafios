@@ -1,0 +1,43 @@
+i thiago
+p
+thiago
+u
+thiago
+i maria
+p
+thiago
+u
+maria
+i jose
+p
+thiago
+u
+jose
+r
+p
+maria
+u
+jose
+i carlos
+p
+maria
+u
+carlos
+t
+3
+r
+p
+jose
+u
+carlos
+r
+p
+carlos
+u
+carlos
+v
+não
+r
+v
+sim
+6

@@ -1,0 +1,95 @@
+Case = 1
+input = 
+a thiago 2
+a maria 1
+a clara 2
+a jose 3
+a marcos 2
+t
+l
+output = 
+5
+jose
+thiago
+clara
+marcos
+maria
+Case = 2
+input = 
+a thiago 2
+a maria 1
+a clara 2
+a jose 3
+a marcos 2
+p
+p
+p
+p
+t
+l
+output = 
+jose
+thiago
+clara
+marcos
+1
+maria
+Case = 3
+input = 
+a thiago 2
+a maria 1
+a clara 2
+a jose 3
+a marcos 2
+r jose
+r maria
+r clara
+t
+l
+output = 
+2
+thiago
+marcos
+Case = 4
+input = 
+a thiago 2
+a maria 1
+a clara 2
+a jose 3
+a marcos 2
+r jose
+p
+p
+r maria
+p
+t
+l
+output = 
+thiago
+clara
+marcos
+0
+Case = 5
+input = 
+a thiago 2
+a maria 1
+a clara 2
+a jose 3
+a marcos 2
+r jose
+p
+r maria
+p
+a jorge 3
+a claudio 0
+p
+p
+t
+l
+output = 
+thiago
+clara
+jorge
+marcos
+1
+claudio

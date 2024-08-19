@@ -1,0 +1,26 @@
+t
+i thiago 1
+t
+a thiago noronha
+t 
+m
+v thiago
+i maria 2
+t
+a maria clara
+t 
+m
+v maria
+i carlos 4
+t
+a carlos magno
+t 
+m
+v carlos 
+i jose 3
+t
+a jose marcos
+t 
+m
+v jose
+f

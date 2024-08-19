@@ -1,0 +1,88 @@
+case = t01
+input = 
+i thiago 1
+i maria 2
+i jose 3
+i carlos 4
+t
+p thiago
+p Thiago
+p Maria
+p maria
+r thiago
+r carlos
+t
+v maria
+v jose
+a maria 5
+a jose 6
+v maria
+v jose
+m
+r maria
+t
+m
+r jose
+t
+f
+output =
+4
+sim
+não
+não
+sim
+2
+2
+3
+5
+6
+jose
+1
+jose
+0
+case = t02
+input = 
+t
+i thiago 1
+t
+a thiago noronha
+t 
+m
+v thiago
+i maria 2
+t
+a maria clara
+t 
+m
+v maria
+i carlos 4
+t
+a carlos magno
+t 
+m
+v carlos 
+i jose 3
+t
+a jose marcos
+t 
+m
+v jose
+f
+output =
+0
+1
+1
+thiago
+noronha
+2
+2
+maria
+clara
+3
+3
+carlos
+magno
+4
+4
+carlos
+marcos

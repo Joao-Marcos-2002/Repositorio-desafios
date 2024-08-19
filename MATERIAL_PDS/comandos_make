@@ -1,0 +1,56 @@
+
+Para uma dada "árvore de arquivos": 
+main->main.c
+main->lib.o
+
+lib.o->lib.c
+
+
+
+
+
+
+all:
+
+main: main.c lib1.o
+    gcc -o main main.c lib1.o
+
+lib1.o: lib1.c
+    gcc -c lib.c
+
+=======================================================================================================================================
+
+
+
+all:
+    echo "Oi"
+
+hello:
+    echo "hello"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

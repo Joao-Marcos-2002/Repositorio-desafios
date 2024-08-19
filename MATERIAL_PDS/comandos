@@ -1,0 +1,24 @@
+
+
+g++ -o main nomeArquivo
+
+g++ -o main nomeArquivo
+
+
+
+./main
+
+
+
+
+
+Comandos para rodar:
+
+
+
+g++ -o main main.cpp
+
+./main -a "0 | 1" 01
+./tp -a "0 | 1" 01
+
+

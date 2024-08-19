@@ -1,0 +1,3 @@
+O problema foi: Segmentation fault
+
+

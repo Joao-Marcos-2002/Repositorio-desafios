@@ -1,0 +1,35 @@
+case = test_0
+input =a vida eh mais feliz quando eh doce.
+output =eh
+
+case = test_1
+input =1 2 3 1 2 4 1 5 6
+output =1
+
+case = test_2
+input =amar o perdido deixa confundido
+esse coracao
+nada pode o ouvido
+contra o sem sentido
+apelo do nao
+output =o
+
+case = test_3
+input =Era uma vez uma escola bem tranquila onde vivia uma professora.
+output =uma
+
+case = test_4
+input =a aa aaa aaa aa a aa aaa aa
+output =aa
+
+case = test_5
+input =palavra.
+output =palavra.
+
+case = test_6
+input =a palavra eh e eh a.
+output =eh
+
+case = test_7
+input =b b b b b b b b b b b c
+output =b

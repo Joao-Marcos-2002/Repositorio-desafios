@@ -1,0 +1,19 @@
+{
+  "name": "exercicios_ts",
+  "version": "1.0.0",
+  "description": "tsc arquivo.ts",
+  "main": "basic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/prompt-sync": "^4.2.3"
+  }
+}

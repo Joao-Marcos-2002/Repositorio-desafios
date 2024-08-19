@@ -1,0 +1,144 @@
+case = t01
+input = 
+i thiago
+p
+u
+i maria
+p
+u
+i jose
+p
+u
+r
+p
+u
+i carlos
+p
+u
+t
+r
+p
+u
+r
+p
+u
+v
+r
+v
+f
+output =
+thiago
+thiago
+thiago
+maria
+thiago
+jose
+maria
+jose
+maria
+carlos
+3
+jose
+carlos
+carlos
+carlos
+não
+sim
+
+case = t02
+input = 
+i thiago
+r
+t
+i maria
+r
+i jose
+t
+i nanda
+r
+r
+v
+t
+output =
+0
+1
+sim
+0
+
+case = t03
+input = 
+f
+output =
+
+case = t04
+input = 
+i thiago
+p
+u
+t
+v
+i maria
+p
+u
+t
+v
+i jose
+p
+u
+t
+v
+r
+p
+u
+t
+v
+r
+p
+u
+t
+v
+r
+t
+v
+f
+output =
+thiago
+thiago
+1
+não
+thiago
+maria
+2
+não
+thiago
+jose
+3
+não
+maria
+jose
+2
+não
+jose
+jose
+1
+não
+0
+sim
+
+case = t05
+input = 
+v
+t
+i thiago
+i maria
+i jose
+r
+r
+r
+v
+t
+output =
+sim
+0
+sim
+0

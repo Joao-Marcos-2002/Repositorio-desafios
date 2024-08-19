@@ -1,0 +1,23 @@
+
+
+
+MULTI-ARMED BANDITS:
+
+
+Os multi-armed Bandits: representam um modelo clássico de tomada de decisão em que um agente de decisão deve escolher entre novos braços para descobrir seu valor
+real e explorar melhores opções.
+
+
+EXPLOTATION VS Exploration (Exploração  vs Exploração): A principal questão é a decisão entre explorar opções para descobrir seu valor real e explorar braços
+conhecidos que prmetem uma recompensa conhecida.
+
+Modelo de recompensa desconhecido: O agente geralmente não tem informações previsiveis sobre as recompensas associadas a cada braço. Assim, o importante
+ é aprender com a experiencia, avaliando os resultados das escolhas anteriores.
+
+
+Trade off: a escolha de um braço  a ser puxado é influenciado pela incerteza associada as estimativas das recompensas.
+
+Convergencia: ao longo do tempo, algoritmos de bandits sao projetados pra convergir para a seleção dos melhores braços com base nas estimativas de recompensas.
+
+
+APLICABILIDADE DOS BANDITS: tem diversas aplicações como: otimização de publicidade, teste A/B, controle de robos, alocação de recursos e outros.

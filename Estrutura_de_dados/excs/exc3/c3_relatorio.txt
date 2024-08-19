@@ -1,0 +1,2 @@
+há erro de inicialização ou passagem de parâmetros pro main
+int main(int argc, char** argv){

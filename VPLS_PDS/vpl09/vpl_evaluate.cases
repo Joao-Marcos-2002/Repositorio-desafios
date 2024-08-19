@@ -1,0 +1,88 @@
+case = t01
+input =-2 2 
+a -2 thiago
+a -1 maria
+a 0 joao
+a 1 carlos
+a 2 marcos
+v 2
+v 1
+v 0
+v -1
+v -2
+f
+output =marcos
+carlos
+joao
+maria
+thiago
+
+case = t02
+input =-2 2 
+a -2 thiago
+v -2
+a -1 maria
+v -1
+a 0 joao
+v 0
+a 1 carlos
+v 1
+a 2 marcos
+v 2
+f
+output = thiago
+maria
+joao
+carlos
+marcos
+
+case = t03
+input =-2 2 
+a -2 thiago
+v -2
+a -1 maria
+v -1
+a 0 joao
+v 0
+a 1 carlos
+v 1
+a 2 marcos
+v 2
+a -2 thiago
+a -1 thiago
+a 0 thiago
+a 1 thiago
+a 2 thiago
+v -2
+v -1
+v 0
+v 1
+v 2
+f
+output =thiago
+maria
+joao
+carlos
+marcos
+thiago
+thiago
+thiago
+thiago
+thiago
+
+case = t04
+input =-1111112 -1111111 
+a -1111112 thiago
+a -1111111 maria
+v -1111111
+v -1111112
+f
+output = maria
+thiago
+
+case = t05
+input =0 0 
+a 0 thiago
+v 0
+f
+output = thiago

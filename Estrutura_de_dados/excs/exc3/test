@@ -1,0 +1,292 @@
+Script started on 2023-09-08 16:27:03-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="98" LINES="11"]
+[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ s[Kdirgdb c3[11@cc -g c3.c -o[C[C[C[10Pcd exc3ode /home/joao/Área de Trabalho/UFMG/Estrutura_de_dados/aula_2_ED[A]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ /bin/python3 "/home/joa[4Po/Área de Trabalho/UFMG/top_si/main.py"[A]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ [12Pmake gprof
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdir[Kcd TP[2Pdirmake gprofraphdir[KDIRcd TPtpTP[2PDIRdirmake graphprofdir[Kcd TP[2Pdirmake gprof/bin/python3 "/home/joao/Área de Trabalho/UFMG/top_si/main.py"[A]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ code /home/joao/Área de Trabalho/UFMG/Estrutura_de_dados/aula_2_ED[A]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ [Cd exc3[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc -g c3.c -o c3db c3[K[3Pdir[Kdirgdb c3[11@cc -g c3.c -o[C[C[C[K1[1P[1@1
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gcc -g c1.c -o c1dir[Kgdb c3[K1
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004lFind the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mc1[m...
+[?2004h(gdb) b main
+[?2004lPonto de parada 1 at [34m0x117c[m: file [32mc1.c[m, line 6.
+[?2004h(gdb) q
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gdb c1[11@cc -g c1.c -o[C[C[C
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gcc -g c1.c -o c1db c1[K
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004lFind the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mc1[m...
+[?2004h(gdb) b main
+[?2004lPonto de parada 1 at [34m0x117c[m: file [32mc1.c[m, line 6.
+[?2004h(gdb) b main[K[K[K[K[K[Kq
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gdb c1[11@cc -g c1.c -o[C[C[Cdb c1[K[11@cc -g c1.c -o[C[C[Cdb c1[K[11@cc -g c1.c -o[C[C[C[K2[C[C[1P[1@2
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gcc -g c2.c -o c2db c1[K[K2
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004lFind the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mc2[m...
+[?2004h(gdb) b main
+[?2004lPonto de parada 1 at [34m0x119c[m: file [32mc2.c[m, line 4.
+[?2004h(gdb) q
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gdb c2[11@cc -g c2.c -o[C[C[Cdb c2[K
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004lFind the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mc2[m...
+[?2004h(gdb) b main
+[?2004lPonto de parada 1 at [34m0x119c[m: file [32mc2.c[m, line 4.
+[?2004h(gdb) 1
+[?2004lcommand indefinido: "1". Tente "help".
+[?2004h(gdb) q
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gdb c2[11@cc -g c2.c -o[C[C[C[K1[1P[1@1
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gcc -g c1.c -o c1db c2[K[K1
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004lFind the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mc1[m...
+[?2004h(gdb) ./a.out
+[?2004lcommand indefinido: ".". Tente "help".
+[?2004h(gdb) ./a.outg./a.outd./a.outb./a.out ./a.out
+[?2004lcommand indefinido: "gdb". Tente "help".
+[?2004h(gdb) gdb ./a.out[1P.outc.out1.out
+[?2004lcommand indefinido: "gdb". Tente "help".
+[?2004h(gdb) clear
+[?2004lArquivo fonte não especificado.
+[?2004h(gdb) qq
+[?2004lcommand indefinido: "qq". Tente "help".
+[?2004h(gdb) q
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ cleargdb c1[11@cc -g c1.c -o[C[C[Cdb c1[K[K[K.a[K/a.out
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--
+[?2004lFind the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+./a.out: Arquivo ou diretório inexistente.
+[?2004h(gdb) q
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gcc -g -o c1.c[K[K c1-c[K[K.c
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gdb c1
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004lFind the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mc1[m...
+[?2004h(gdb) b man[Kin
+[?2004lPonto de parada 1 at [34m0x117c[m: file [32mc1.c[m, line 6.
+[?2004h(gdb) q
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ script teste
+[?2004lScript started, output log file is 'teste'.
+[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gdb /a[K[K./a/out
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004lFind the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+./a/out: Arquivo ou diretório inexistente.
+[?2004h(gdb) b main
+[?2004lNenhuma tabela de símbolos está carregada. Use o comando "file".
+[?2004hMake breakpoint pending on future shared library load? (y or [n]) y
+[?2004lPonto de parada 1 (main) pendente.
+[?2004h(gdb) q
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gdb ./a/outdir[Kgdb c3[11@cc -g c3.c -o[C[C[C[10Pcd exc3gcc -g c3.c -o c3[K1[1P[1@1
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gcc -g c1.c -o c1[6Pdb ./a/out[K[K[K[K[K[K[K[K c1
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004lFind the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mc1[m...
+[?2004h(gdb) b main
+[?2004lPonto de parada 1 at [34m0x117c[m: file [32mc1.c[m, line 6.
+[?2004h(gdb) q
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gdb c1[11@cc -g c1.c -o[C[C[C_corr eto[A]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_.c -o c1_correto[A]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ [C[C[C[C[C[C[C[C[C[Cc.c -o c1_correto[A]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ [C[C[C[C[C[C[C[C[C[C[Co.c -o c1_co[Creto[A]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ [C[C[C[C[C[C[C[C[C[C[C[Cr.c -o c1_correto[A]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cr.c -o c1_correto[A]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Ce.c -o c1_correto[A]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct.c -o c1_correto[A]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co.c -o c1_correto[A]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gdb c1_correto
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004lFind the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mc1_correto[m...
+[?2004h(gdb) b main
+[?2004lPonto de parada 1 at [34m0x117c[m: file [32mc1_correto.c[m, line 6.
+[?2004h(gdb) q
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gdb c1_corretocc -g c1_correto.c -o c1_correto
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gcc -g c1_correto.c -o c1_correto[A]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ [C[8Pdb c1_correto
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004lFind the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mc1_correto[m...
+[?2004h(gdb) b main
+[?2004lPonto de parada 1 at [34m0x117c[m: file [32mc1_correto.c[m, line 6.
+[?2004h(gdb) q
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gdb c1_corretocc -g c1_correto.c -o c1_correto
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gcc -g c1_correto.c -o c1_correto[A]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ [C[8Pdb c1_correto
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004lFind the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mc1_correto[m...
+[?2004h(gdb) b main
+[?2004lPonto de parada 1 at [34m0x117c[m: file [32mc1_correto.c[m, line 6.
+[?2004h(gdb) gdb run
+[?2004lcommand indefinido: "gdb". Tente "help".
+[?2004h(gdb) q
+[?2004l[?2004h]0;joao@joao-IdeaPad-3-15ALC6: ~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[01;32mjoao@joao-IdeaPad-3-15ALC6[00m:[01;34m~/Área de Trabalho/UFMG/Estrutura_de_dados/exc3[00m$ gdb run
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instruc

@@ -1,0 +1,121 @@
+================= UNIVERSIDADE FEDERAL DE MINAS GERAIS ================= 
+
+                   Autor: JOÃO MARCOS RIBEIRO TOLENTINO
+                   Data 10/06/2023
+                   Trabalho de Matemática Discreta      
+
+=================                                      =================
+
+
+
+
+OBSERVAÇÃO: Para o funcionamento correto do programa: A ENTRADA DO AXIOMA, ANGULO E REGRA são passados no arquivo: "entrada.txt".
+no padrão do documento disponibilizado no moodle.
+
+Sendo: 
+
+linha1: AXIOMA
+linha2: ANGULO
+linha3:  REGRA
+
+Depois de executar essa entrada será exibida no terminal para o usuário e a saída é listada no arquivo: saida.txt de acordo com a quantidade de estágio digitada (podendo ser até 4).
+
+Ambiente Computacional: para rodar o programa é só executar o arquivo main.c de forma comum.
+
+É utilizado: GCC e compilador durante a implementação.
+
+1 - CRIAÇÃO E FUNCIONAMENTO DOS 3 FRACTAIS:
+
+*******  1. Floco de neve clássico de von Koch    *******
+
+i) Foi utilizado a estratégia do item A:
+
+  Uma versão iterativa onde os caracteres de um estágio intermediário são gravados em
+um arquivo, lidos e processados para gerar um outro arquivo para o próximo estágio,
+até se chegar ao estágio desejado.
+  Dessa forma, para testar deve-se executar o arquivo 'main.c' e passar as informações no terminal.
+Sendo elas, em ordem: o número do fractal, o axioma, o angulo (dado em graus), a regra
+correspondente e a quantidade de estágios solicitada (podendo ser até 4).
+
+linha 1: F
+linha 2: 90
+linha 3: F-F+F+FF-F-F+F
+
+
+*******   Preenchimento de espaço de Peano       *******
+
+
+ii)
+O símbolo X (que no caso será o axioma digitado) deixando o arquivo "entrada.ext" da seguinte forma:
+
+Linha 1: X
+LInha 2: 90
+LInha3: YF+XFX+FY-
+
+
+
+iii) Um fractal definido por você que gere uma cadeia de polígonos simples que tenha pelo
+menos duas regras como as curvas de preenchimento de espaço de Peano e Hilbert.
+
+
+*******   Apresentar a equação de Recorrência     *******
+
+iii) Um fractal definido por você que gere uma cadeia de polígonos simples que tenha pelo
+menos duas regras como as curvas de preenchimento de espaço de Peano e Hilber
+
+
+AXIOMA: X
+Angulo: 90
+X → -YF++XFX++FY-
+Y → ++XF-YFY-FX++
+
+
+2) A estratégia utilizada foi a versão iterativa (estrutura de repetição) que é a opção A listada:
+
+A) Uma versão iterativa onde os caracteres de um estágio intermediário são gravados em
+um arquivo, lidos e processados para gerar um outro arquivo para o próximo estágio,
+até se chegar ao estágio desejado.
+
+Usei essa estratégia por costume de utilização. Os pontos positivos é que é bastante legível, tranquilo
+de entender, porém se fosse fazer para gerar um estágio maior de fractais poderia dar erro de armazenamento ('segment default').
+
+
+b) Uma versão recursiva que gera os caracteres do estágio desejado
+
+Essa forma também poderia ser usada. Como ponto positivo é que ficaria um código um pouco mais simplificado. Pode ser um pouco mais
+difícil de endenter na primeira vista, inicialmente sem rodar o código do que a versão interativa (mas nada demais). 
+
+
+
+3) Equações de recorrência:
+
+i) T(n) = ∑f=0 até K.  Para k = quantidade de estágios
+
+E é o axiomaf
+
+ii) T(n) = ∑xf=0 até K.  Para k = quantidade de estágios
+
+E é o axioma é: X
+
+iii)
+T(n) = ∑xf=0 até K.  Para k = quantidade de estágios
+
+E é o axioma é: Y
+
+
+4) 
+
+F → F-F+F+FF-F-F+F
+X → YF+XFX+FY-
+X → -YF++XFX++FY-
+Y → ++XF-YFY-FX++
+
+
+APRESENTAÇÃO DA COMPLEXIDADE:
+
+Considerando uma função como f(n), temos que o limite da mesma será teta(f(n)).
+
+
+
+5) As imagens dos fractais gerados estão apresentados: no arquivo: doc disponibilizado.
+

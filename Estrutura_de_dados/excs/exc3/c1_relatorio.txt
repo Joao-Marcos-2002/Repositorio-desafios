@@ -1,0 +1,11 @@
+Analisando o código na linha 6: observa-se que foi alocado para o ponteiro '*a' 10 posições de memória:
+
+  int *a = malloc(sizeof(int) * 10);
+
+
+========================================================================================================
+
+Contudo, estava tentando iterar até a décima primeira posição*
+e problema de variável não inicializada main
+
+

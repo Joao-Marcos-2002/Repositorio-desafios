@@ -1,0 +1,52 @@
+Case = 1
+input = 
+estudantes
+output =
+a 1
+e 2
+u 1
+
+Case = 2
+input = 
+abacaxi
+output =
+a 3
+i 1
+
+Case = 3
+input = 
+agricultores
+output =
+a 1
+e 1
+i 1
+o 1
+u 1
+
+Case = 4
+input = 
+monohidrogenossulfato
+output =
+a 1
+e 1
+i 1
+o 5
+u 1
+
+Case = 5
+input = 
+fly
+output =
+
+Case = 6
+input = 
+rhythm
+output =
+
+Case = 7
+input = 
+uruguai
+output =
+a 1
+i 1
+u 3
